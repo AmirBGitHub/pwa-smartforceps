@@ -37,7 +37,5 @@
   "display": "standalone",
   "background_color": "white",
   "theme_color": "white",
-  "description":"This is a PWA for SmartForceps Data.",
-  "deploy": "npm run export && node ./js/main.js",
-  "export": "sapper export --basepath pwa-smartforceps --legacy"    
+  "description":"This is a PWA for SmartForceps Data."  
 }
