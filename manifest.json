@@ -5,7 +5,19 @@
   "background_color": "white",
   "display": "standalone",
   "start_url": ".",
+  "scope": "/",
+  "start_url": "https://smartforceps-app.azurewebsites.net",
   "icons": [
+    {
+      "src": "images/smartforceps-icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }, 
+    {
+      "src": "images/smartforceps-icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }, 
     {
       "src": "images/smartforceps-icon-128.png",
       "sizes": "128x128",
@@ -36,6 +48,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "splash_pages": null 
+  ]
 }
