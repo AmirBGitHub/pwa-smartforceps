@@ -1,7 +1,7 @@
 # SmartForceps PWA
 The SmartForceps program as a Progressive Web App
 
-![SmartForceps PWA Screenshot](./screenshot.jpg "SmartForceps PWA Screenshot")
+![SmartForceps PWA Screenshot](./screenshot.png "SmartForceps PWA Screenshot")
 
 ## What It Is
 
