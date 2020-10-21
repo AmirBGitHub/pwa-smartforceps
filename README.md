@@ -7,7 +7,7 @@ The SmartForceps program as a Progressive Web App
 
 A PWA that provides Login gateway to SmartForceps data app utilizing an app manifest, service workers and caching. This app is written in plain-vanilla HTML, CSS and Javascript (ES6). It has no dependencies.
 
-## To test this out
+## To Test This Out
 1. Open your terminal (NOTE: git bash preferred/ Terminal on VS Code)
 2. Navigate to the project folder where you have cloned this repo.
 3. Type the following command in the terminal
