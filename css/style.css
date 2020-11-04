@@ -46,7 +46,7 @@ body {
   flex-wrap: nowrap;
   font-size: 20px;
   font-weight: 500;
-  height: 100px;
+  height: 120px;
   justify-content: flex-start;
   padding: 25px 25px 20px 25px;
   position: relative;
@@ -74,10 +74,10 @@ body {
   flex: 1;
   overflow-x: hidden;
   overflow-y: auto;
-  padding-top: 60px;
+  padding-top: 0px;
 }
 
-.smartforceps-info-card {
+.smartforceps-login-info-card {    
   color: white;
   background: #1e2130;
   border-radius: 2px;
@@ -91,12 +91,29 @@ body {
   position: relative;
 }
 
-.smartforceps-login-card { 
+.smartforceps-login-button-card { 
   height: 0px;
   position: relative;
 }
 
-.smartforceps-goto-card { 
+.smartforceps-goto-info-card {
+  top: 150px;    
+  color: white;
+  background: #1e2130;
+  border-radius: 2px;
+  box-shadow:
+    0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  margin: 16px;
+  padding: 16px;
+  position: relative;
+}
+
+
+.smartforceps-goto-button-card {
+  top: 150px;    
   height: 0px;
   position: relative;
 }
@@ -116,10 +133,10 @@ body {
   border: none;
   border-radius: 6px;        
   color: white;
-  padding: 15px 40px;
+  padding: 15px 15px;
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 3vw;
   transition-duration: 0.2s;
   cursor: pointer;
 }
