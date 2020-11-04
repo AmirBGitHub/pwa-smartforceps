@@ -96,6 +96,11 @@ body {
   position: relative;
 }
 
+.smartforceps-goto-card { 
+  height: 0px;
+  position: relative;
+}
+
 .center {
   margin: 10;
   position: absolute;
