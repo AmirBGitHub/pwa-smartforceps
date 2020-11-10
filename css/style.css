@@ -58,7 +58,7 @@ body {
 
 .header h1 {
   flex: 1;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 800;
   margin: 0;
 }
@@ -146,5 +146,71 @@ body {
   background-color: #171b26; 
   color: white;
   border: 2px solid #008CBA;    
+}
+
+.social-footer {
+  align-content: center;
+  align-items: stretch;    
+  padding: 5px 5px 5px 5px;
+  box-shadow:
+    0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 2px 9px 1px rgba(0, 0, 0, 0.12),
+    0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  background: $1e2130;
+  font-size: 0.7em;
+  color: white;
+  display: center;
+  flex-direction: row;
+  flex-wrap: nowrap;    
+  justify-content: space-between;
+  position: relative;
+  will-change: transform;
+  z-index: 1000;
+
+  .social-footer-icons {
+    li:last-of-type {
+      margin-right: 0;
+    }
+
+    .fa {
+      font-size: 1.3rem;
+      color: $171b26;
+
+      &:hover {
+        color: darken(, 25%);
+        transition: color 0.3s ease-in;
+      }
+    }
+  }
+}
+
+
+.social-footer {
+  padding: 4vw;
+  background: #1e2130;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-footer .social-footer-icons li:last-of-type {    
+  margin-right: 0;
+}
+
+.social-footer .social-footer-icons .fa {
+  margin-right: 1vw;    
+  font-size: 3.5em;
+  color: white;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: powderblue;
+  transition: color 0.3s ease-in;
 }
 
