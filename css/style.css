@@ -185,14 +185,14 @@ body {
 
 
 .social-footer {
-  padding: 4vw 4vw 5vw 4vw;
+  padding: 0vw 4vw 10vw 4vw;
   background: #1e2130;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: top;
-      -ms-flex-align: top;
-          align-items: top;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
